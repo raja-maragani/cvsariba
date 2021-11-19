@@ -1,0 +1,21 @@
+{
+  "name": "export-csv",
+  "version": "1.0.0",
+  "description": "Export the CSV from Ariba API calls",
+  "main": "source/server.ts",
+  "scripts": {
+    "dev": "nodemon source/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "export-to-csv": "^0.2.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9"
+  }
+}
